@@ -28,6 +28,9 @@ public class Test_Opg1 {
         //ingen ens sider
         System.out.println("skulle ikke have nogle ens sider(3): "+calc(2, 3, 4));
         
+        //en eller flere sider er 0
+        System.out.println("en eller flere sider er 0(4): "+calc(0, 1, 2));
+        
         
         
     }
@@ -47,7 +50,7 @@ public class Test_Opg1 {
             return 4;
         
         //equilateral triangle (ligesidet)
-        if(value1 == value2 && value1 == value3)
+        else if(value1 == value2 && value1 == value3)
             return 1;
         //isosceles (ligebenet)
         else if(value1 == value2 || value1 == value3 || value2 == value3)
