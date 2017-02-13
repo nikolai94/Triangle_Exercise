@@ -17,22 +17,19 @@ public class Test_Opg1 {
     public static void main(String[] args) {
         //test if is triangle    
         //should be false
-        System.out.println("test if is triangle(4): "+ calc(1,2,3));
+        System.out.println("Test if is triangle(4): " + calc(1,2,3));
         
         //ligesidet
-        System.out.println("skulle være ligesidet(1): "+ calc(3,3,3));
+        System.out.println("Skulle være ligesidet(1): " + calc(3,3,3));
         
         //ligebenet
-        System.out.println("skulle være ligebenet(2): "+ calc(3,3,1));
+        System.out.println("Skulle være ligebenet(2): " + calc(3,3,1));
         
         //ingen ens sider
-        System.out.println("skulle ikke have nogle ens sider(3): "+calc(2, 3, 4));
+        System.out.println("Skulle ikke have nogle ens sider(3): " + calc(2, 3, 4));
         
         //en eller flere sider er 0
-        System.out.println("en eller flere sider er 0(4): "+calc(0, 1, 2));
-        
-        
-        
+        System.out.println("En eller flere sider er 0(4): " + calc(0, 1, 2));  
     }
     
     /*
@@ -44,11 +41,9 @@ public class Test_Opg1 {
     5 = en anden fejl
     */ 
     private static int calc(int value1, int value2, int value3){
-        
         //check if is a triangle
         if((value1 + value2) <= value3 || (value1 + value3) <= value2 || (value2 + value3) <= value1)
-            return 4;
-        
+            return 4;    
         //equilateral triangle (ligesidet)
         else if(value1 == value2 && value1 == value3)
             return 1;

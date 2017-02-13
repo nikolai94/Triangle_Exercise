@@ -1,0 +1,12 @@
+Coding standard document
+
+-Lav 'Kode kommentar' så det er letter for andre at sætte sig ind i ens kode.
+
+-Gode korrekt navne(fx funktioner, attributter), som giver mening i programmet.
+Derudover skal man holde det på et sporg fx engelsk. 
+
+-Overhold navngivnings typer fx 'Camel case' 
+
+-Det er en god ide at tjekke efter om en value fra fx en funktion er null
+
+ 

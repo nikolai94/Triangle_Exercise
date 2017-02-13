@@ -1,0 +1,11 @@
+Peer Review Triangle 
+
+-https://github.com/Mattidk/TriangleExercise
+
+-Fedt at du bruger kotlin, og det er også en fed metode 'distinct' på dit array.
+
+-En god ide kunne være at tjekke på om de 3 sider kan være en trekant.
+Ved at tage 2 vilkårlige siders sum og tjekke om den sum er større end den sidste side.
+
+-Hvis du i fremtiden vil lave junit test på dit program, kunne det måske være en god ide at sætte koden ind i sin egen function.
+
