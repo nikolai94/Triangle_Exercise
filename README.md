@@ -17,11 +17,8 @@ Solution for Exercise https://docs.google.com/document/d/1ZS6LSP4dVPHgjLFyJo1dMj
 
 
 ###Static Test Techniques Exercise
-Coding standard document : 
-https://github.com/nikolai94/Triangle_Exercise/blob/master/Coding%20standard%20document.txt
-
-Peer Review Triangle : 
-https://github.com/nikolai94/Triangle_Exercise/blob/master/Peer%20Review%20Triangle%20-%20mathias.txt
+PDF
+https://github.com/nikolai94/Triangle_Exercise/blob/master/Static_Test_Techniques_Exercise.pdf
 
 
 
